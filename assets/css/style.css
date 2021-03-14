@@ -1,0 +1,11 @@
+body, nav {
+    background: #cc2b5e;
+    background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);
+    background: linear-gradient(to right, #753a88, #cc2b5e);
+    /* color: rgba(0, 112, 181, 0.32); */
+    color: white;
+}
+
+#nav-items li a {
+    color: white;
+}
