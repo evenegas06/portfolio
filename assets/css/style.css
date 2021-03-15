@@ -1,4 +1,4 @@
-body, nav {
+#home, body, nav {
     /* Purple Love */
     background: #cc2b5e;
     background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);
@@ -7,6 +7,18 @@ body, nav {
     /* background: #2980b9;  
     background: -webkit-linear-gradient(to right, #2c3e50, #2980b9); 
     background: linear-gradient(to right, #2c3e50, #2980b9); */
+}
+
+#portfolio {
+    background: #ad2450;
+    background: -webkit-linear-gradient(to right, #542a62, #ad2450);
+    background: linear-gradient(to right, #542a62, #ad2450);
+}
+
+footer {
+    background: #901d42;
+    background: -webkit-linear-gradient(to right, #3c1e46, #901d42);
+    background: linear-gradient(to right, #3c1e46, #901d42);
 }
 
 
