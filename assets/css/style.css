@@ -1,11 +1,19 @@
 body, nav {
+    /* Purple Love */
     background: #cc2b5e;
     background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);
     background: linear-gradient(to right, #753a88, #cc2b5e);
-    /* color: rgba(0, 112, 181, 0.32); */
-   
+    
+    /* background: #2980b9;  
+    background: -webkit-linear-gradient(to right, #2c3e50, #2980b9); 
+    background: linear-gradient(to right, #2c3e50, #2980b9); */
 }
 
 #nav-items li a {
+    color: white;
+}
+
+.link {
+    text-decoration: none;
     color: white;
 }
