@@ -55,7 +55,12 @@ footer {
     color: white;
 }
 
+#footer a{
+    text-decoration: none;
+}
+
 /* Menu clip-path */
+
 .contenedor-menu {
     background: #901d42;
     background: -webkit-linear-gradient(to right, #3c1e46, #901d42);
