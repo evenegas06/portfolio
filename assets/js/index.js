@@ -1,11 +1,20 @@
-const nav = document.getElementById('navbarNav');
+const menu = document.getElementById('btn-abrir-menu');
 
-//window.onresize = nav;
-//window.onload = nav;
+menu.addEventListener('click', () => {
+    document.getElementById('contenedor-menu').classList.toggle('active');
+});
 
-// function nav() {
-//     const width = screen.width;
-//     if (width <= 992) {
-//         nav.classList.remove('justify-content-end');
-//     }
-// }
+const link = document.getElementsByName('link-menu');
+link.forEach(element => {
+    element.addEventListener('click', () => {
+        // console.log(element);
+        document.getElementById('contenedor-menu').classList.toggle('active');
+    });
+});
+
+window.addEventListener('load', () => {
+    // setTimeout(carga, 3000);
+    document.getElementById('loading').classList.toggle('hide');
+    document.getElementById('main').classList.toggle('hide');
+    document.getElementById('footer').classList.toggle('hide');
+});
