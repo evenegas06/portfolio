@@ -66,7 +66,17 @@
         </nav>
     </header>
 
-    <main class="mt-4" style="max-width: 100%; margin: 0 auto;">
+    <div class="row align-items-center" id="loading" style="height: 100vh; ">
+        <div class="col-12 text-center text-light">
+            <h3>Cargando...</h3>
+            <br>
+            <div class="spinner-border " role="status">
+                <span class="visually-hidden">Cargando...</span>
+            </div>
+        </div>
+    </div>
+
+    <main class="mt-4 hide" style="max-width: 100%; margin: 0 auto;" id="main">
         <section class="text-center text-white" id="home" style="max-width: 90%; margin: 0 auto;">
             <p>Hola!👋 me presento, mi nombre es <strong>Eduardo Venegas Rivera</strong>
                 pasante de Ingeniería en Computación y un Apasionado</p>
@@ -251,7 +261,7 @@
         </section>
     </main>
 
-    <footer class="shadow-lg">
+    <footer class="shadow-lg hide" id="footer">
         <div class="container-fluid">
             <br><br><br><br><br>
         </div>
@@ -272,6 +282,14 @@
                 document.getElementById('contenedor-menu').classList.toggle('active');
             });
         });
+
+        window.addEventListener('load', () => {
+            // setTimeout(carga, 3000);
+            document.getElementById('loading').classList.toggle('hide');
+            document.getElementById('main').classList.toggle('hide');
+            document.getElementById('footer').classList.toggle('hide');
+        });
+
     </script>
 </body>
 
