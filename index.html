@@ -25,9 +25,9 @@
                     </p>
                     <div class="elementos-navegacion ">
                         <ul>
-                            <li><a href="index.html">Inicio</a></li>
-                            <li><a href="#portfolio">Servicios</a></li>
-                            <li><a href="#">Contacto</a></li>
+                            <li name="link-menu"><a href="index.html">Inicio</a></li>
+                            <li name="link-menu"><a href="#portfolio">Servicios</a></li>
+                            <li name="link-menu"><a href="#">Contacto</a></li>
                         </ul>
                     </div>
 
@@ -263,6 +263,14 @@
         const menu = document.getElementById('btn-abrir-menu');
         menu.addEventListener('click', () => {
             document.getElementById('contenedor-menu').classList.toggle('active');
+        });
+
+        const link = document.getElementsByName('link-menu');
+        link.forEach(element => {
+            element.addEventListener('click', () => {
+                // console.log(element);
+                document.getElementById('contenedor-menu').classList.toggle('active');
+            });
         });
     </script>
 </body>
