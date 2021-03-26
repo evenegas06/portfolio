@@ -59,6 +59,16 @@ footer {
     text-decoration: none;
 }
 
+.see-more {
+    color:rgb(65, 174, 225);
+    text-decoration: none;
+}
+
+.see-more:hover {
+    color: rgb(113, 137, 211);
+    text-decoration: none;
+}
+
 /* Menu clip-path */
 
 .contenedor-menu {
