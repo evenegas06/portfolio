@@ -64,6 +64,17 @@ footer {
     text-decoration: none;
 }
 
+.dev-icons {
+    width: 75px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    background: #ad2450;
+    background: -webkit-linear-gradient(to right, #542a62, #ad2450);
+    background: linear-gradient(to right, #542a62, #ad2450);
+   
+}
+
 /* Menu clip-path */
 
 .contenedor-menu {
