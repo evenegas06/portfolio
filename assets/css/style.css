@@ -66,13 +66,19 @@ footer {
 
 .dev-icons {
     width: 75px;
+    height: 90px;
     padding: 10px;
     margin: 5px;
     border-radius: 20px;
-    background: #ad2450;
+    background-color: #472355;
+    /* background: #ad2450;
     background: -webkit-linear-gradient(to right, #542a62, #ad2450);
-    background: linear-gradient(to right, #542a62, #ad2450);
+    background: linear-gradient(to right, #542a62, #ad2450); */
    
+}
+
+.borde {
+    outline: 1px solid black;
 }
 
 /* Menu clip-path */
