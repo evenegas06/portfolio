@@ -81,6 +81,11 @@ footer {
     outline: 1px solid black;
 }
 
+.cont-fl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* Menu clip-path */
 
 .contenedor-menu {
