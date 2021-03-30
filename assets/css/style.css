@@ -14,6 +14,31 @@
     background: linear-gradient(to right, #2c3e50, #2980b9); */
 }
 
+#nav-items li a {
+    color: white;
+}
+
+#skills p small {
+    color: #f3d2ff;
+    font-weight: 400;
+}
+
+.dev-icons {
+    width: 73px;
+    height: 73px;
+    padding: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 12px;
+    margin-bottom: 3px;
+    border-radius: 20px;
+    background-color: #472355;
+    /* background: #ad2450;
+    background: -webkit-linear-gradient(to right, #542a62, #ad2450);
+    background: linear-gradient(to right, #542a62, #ad2450); */
+   
+}
+
 #portfolio {
     background: #ad2450;
     background: -webkit-linear-gradient(to right, #542a62, #ad2450);
@@ -44,15 +69,18 @@
     /* clip-path: circle(30% at 50% 50%); */
 }
 
+#portfolio div.card {
+    border-radius: 20px;
+}
+
 footer {
     background: #901d42;
     background: -webkit-linear-gradient(to right, #3c1e46, #901d42);
     background: linear-gradient(to right, #3c1e46, #901d42);
 }
 
-
-#nav-items li a {
-    color: white;
+#footer a{
+    text-decoration: none;
 }
 
 .link {
@@ -60,22 +88,6 @@ footer {
     color: white;
 }
 
-#footer a{
-    text-decoration: none;
-}
-
-.dev-icons {
-    width: 75px;
-    height: 90px;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 20px;
-    background-color: #472355;
-    /* background: #ad2450;
-    background: -webkit-linear-gradient(to right, #542a62, #ad2450);
-    background: linear-gradient(to right, #542a62, #ad2450); */
-   
-}
 
 .borde {
     outline: 1px solid black;
