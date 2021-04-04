@@ -3,6 +3,7 @@
     background: #cc2b5e;
     background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);
     background: linear-gradient(to right, #753a88, #cc2b5e);
+    overflow-x: hidden;
     
     /* Color */
     /* color: #C59BD4 !important; */
@@ -39,7 +40,7 @@
    
 }
 
-#portfolio {
+#portfolio, #skills {
     background: #ad2450;
     background: -webkit-linear-gradient(to right, #542a62, #ad2450);
     background: linear-gradient(to right, #542a62, #ad2450);
@@ -121,7 +122,7 @@ footer {
     z-index: 100;
     text-align: center;
     top: 0;
-    clip-path: circle(70px at 50% 0);
+    clip-path: circle(60px at 50% 0);
     /* clip-path: polygon(0 0, 100% 0%, 100% 70px, 0% 70px); */
     transition: .7s ease all;
 }
@@ -163,8 +164,8 @@ footer {
 .elementos-navegacion li {
     display: none;
     list-style: none;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .contenedor-menu.active li {
@@ -179,7 +180,7 @@ footer {
 
 .elementos-navegacion li a {
     text-decoration: none;
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 2px;
     padding: 15px 30px;
     color: #f8f8f8;
@@ -200,4 +201,15 @@ footer {
 
 .hide {
     display: none;
+}
+
+#eat {
+    width: 100%;
+    height: 250px;
+    background-image: url('../img/camt-evr.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
 }
