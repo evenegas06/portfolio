@@ -213,3 +213,9 @@ footer {
     background-attachment: fixed;
     margin: 0;
 }
+
+.pie-foto {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
