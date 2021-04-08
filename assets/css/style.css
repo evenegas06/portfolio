@@ -74,6 +74,25 @@
     border-radius: 20px;
 }
 
+#contacto {
+    background: #ad2450;
+    background: -webkit-linear-gradient(to right, #542a62, #ad2450);
+    background: linear-gradient(to right, #542a62, #ad2450);
+    height: auto;
+}
+
+.btn-contacto {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #472355; 
+    color: #f3d2ff;
+}
+
+.btn-contacto:hover {
+    background-color: #f3d2ff;
+    color: #472355;
+}
+
 footer {
     background: #901d42;
     background: -webkit-linear-gradient(to right, #3c1e46, #901d42);
@@ -89,6 +108,23 @@ footer {
     color: white;
 }
 
+.input, .input:focus, .input:active {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    /* font-family: 'Mulish', sans-serif; */
+    font-size: 16px;
+    font-weight: 100;
+    /* height: 50px;
+    padding: 0px 20px;
+    width: 70%; */
+    outline: none;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
 
 .borde {
     outline: 1px solid black;
