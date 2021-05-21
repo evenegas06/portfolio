@@ -17,6 +17,7 @@
 </head>
 
 <body>
+    <!-- Menú Escritorio  -->
     <header class="sticky-top py-4 d-lg-none d-xl-none d-xxl-none">
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid ">
@@ -33,14 +34,12 @@
                             </li>
                         </ul>
                     </div>
-
                 </div>
-
             </div>
         </nav>
-
     </header>
 
+    <!-- Menú Mobile -->
     <header class="sticky-top mb-5 d-none d-lg-block ">
         <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-lg">
             <div class="container-fluid ">
@@ -69,10 +68,10 @@
         </nav>
     </header>
 
+    <!-- Load -->
     <div class="container-fluid">
         <div class="row align-items-center" id="loading" style="height: 80vh; ">
             <div class="col-12 text-center text-light">
-                <!-- <h3>Cargando...</h3> -->
                 <br>
                 <div class="spinner-border " role="status">
                     <span class="visually-hidden">Cargando...</span>
@@ -82,12 +81,12 @@
     </div>
 
     <main class="mt-4 hide" style="max-width: 100%; margin: 0 auto;" id="main">
+        <!-- Presentación - Avatar -->
         <section class="text-center text-white" id="home" style="max-width: 90%; margin: 0 auto 2.5rem;">
             <p>¡Hola! Es un placer saludarte👋, mi nombre es <strong>Eduardo Venegas Rivera</strong>
                 pasante de Ingeniería en Computación y un apasionado</p>
 
             <h1>Desarrollador Web</h1>
-
 
             <p>Además me gusta salir en bicicleta y aprender cosas nuevas.</p>
 
@@ -95,6 +94,7 @@
                 style="max-width: 220px;">
         </section>
 
+        <!-- Conocimientos -->
         <section class="mt-3 shadow-lg" id="skills">
             <h2 class="text-center text-white pt-5 pb-4">
                 &lt;&nbsp; Conocimientos &nbsp;/&gt;
@@ -107,15 +107,12 @@
 
                     <div class="d-flex flex-wrap justify-content-center">
                         <!-- Java -->
-                        <!-- <div>
+                        <!-- 
+                        <div>
                             <img src="assets/img/java (3).svg" class="dev-icons" alt="">
                             <p><small>JAVA</small></p>
                         </div> -->
-                        <!-- PHP -->
-                        <!-- <div>
-                            <img src="assets/img/php-code.svg" class="dev-icons" alt="PHP icono">
-                            <p><small>PHP</small></p>
-                        </div> -->
+
                         <!-- Bootstrap -->
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="#fae8ff"
@@ -197,8 +194,8 @@
                             </svg>
                             <p><small>Moodle</small></p>
                         </div>
-                         <!-- Laravel -->
-                         <div>
+                        <!-- Laravel -->
+                        <div>
                             <svg class="dev-icons" viewBox="0 0 50 52" xmlns="http://www.w3.org/2000/svg">
                                 <title>Logomark</title>
                                 <path
@@ -224,13 +221,6 @@
                             </svg>
                             <p><small>Git</small></p>
                         </div>
-                        <!-- MySQL -->
-                        <!-- <div>
-                            <img src="assets/img/mysql-dolphin.svg" class="dev-icons" alt="">
-                            <p><small>MySQL</small></p>
-                        </div> -->
-                        <!-- C++ -->
-                        <!-- <img src="assets/img/c-page.svg" class="dev-icons" alt=""> -->
                     </div>
 
                     <hr class="text-white">
@@ -239,14 +229,13 @@
                         paulatinamente.
                     </p>
                     <hr class="text-white">
+
                 </div>
             </div>
         </section>
 
+        <!-- Image Ramdom Hobby -->
         <section class="comodin mb-3" id="">
-            <!-- <h2 class="text-center text-white py-4">
-                &lt;&nbsp; Sobre mí &nbsp;/&gt;
-            </h2> -->
             <div id="eat"></div>
             <div class="text-center text-white my-2 pie-foto">
                 <p>Algunos de mis pasatiempos favoritos son salir en bicicleta a lugares nuevos en cada rodada con
@@ -256,9 +245,8 @@
             </div>
             <br>
         </section>
-        <!-- <section class="text-center" id="eat">
-        </section> -->
 
+        <!-- Portfolio -->
         <section class="text-center shadow-lg" id="portfolio">
             <h2 class="text-white pt-5 pb-4">
                 &lt;&nbsp; Portafolio &nbsp;/&gt;
@@ -288,14 +276,15 @@
                                 <div class="card-body">
                                     <h5 class="card-title"><strong>Platzi Video</strong></h5>
                                     <p class="card-text">Proyecto que se irá desarrollando en la Escuela
-                                            de JavaScript de <b>Platzi</b> con el Stack <b>MERN</b>.</p>
+                                        de JavaScript de <b>Platzi</b> con el Stack <b>MERN</b>.</p>
                                     <p>
                                         <a href="https://eduardovr.com/platzivideo" target="_blank" class="see-more">
                                             Vista previa
                                         </a>
                                     </p>
                                     <p>
-                                        <a href="https://github.com/evenegas06/platzivideo" target="_blank" class="see-more">
+                                        <a href="https://github.com/evenegas06/platzivideo" target="_blank"
+                                            class="see-more">
                                             Código Fuente
                                         </a>
                                     </p>
@@ -441,6 +430,7 @@
             </div>
         </section>
 
+        <!-- Contacto -->
         <section class="" id="contacto">
             <div class="text-center text-white" style="max-width: 90%; margin: 0 auto; padding-bottom: 4rem;">
                 <h2>¿Te ha gustado?</h2>
@@ -449,27 +439,10 @@
                 <a href="mailto:dev@eduardovr.com" target="_blank" rel="noopener noreferrer"
                     class="btn btn-contacto">Contáctame</a>
             </div>
-            <!-- <div class="row justify-content-center align-items-center">
-                <div class="col-12 col-lg-6 shadow-lg py-4 px-5">
-                    <form>
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label text-white">Tu correo:</label>
-                            <input type="email" class="form-control input" id="exampleFormControlInput1">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label text-white">Tu mensaje:</label>
-                            <textarea class="form-control input" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                      <div class="text-center">
-                        <button type="submit" class="btn btn-primary px-5">Submit</button>
-                      </div>
-                    </form>
-                </div>
-            </div> -->
         </section>
-
     </main>
 
+    <!-- Pie de Página -->
     <footer class="shadow-lg hide py-4" id="footer">
         <div class="container-fluid">
             <div class="row d-flex text-center justify-content-center align-items-center">
