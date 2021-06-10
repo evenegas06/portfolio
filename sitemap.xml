@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://eduardovr.com/</loc>
+  <lastmod>2021-06-09</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://eduardovr.com/100tifico/</loc>
+  <lastmod>2021-06-07</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eduardovr.com/platzipress/</loc>
+  <lastmod>2021-06-10</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eduardovr.com/batatabit/</loc>
+  <lastmod>2020-12-30</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eduardovr.com/AldeaVikinga/</loc>
+  <lastmod>2020-12-30</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eduardovr.com/simtix/</loc>
+  <lastmod>2020-12-30</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
